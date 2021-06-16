@@ -1,0 +1,132 @@
+<!DOCTYPE Html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style1.css">
+    <title> LENA-Project </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo1.png" width="160" height="160" />
+        </div>
+        <div class="menu">
+            <li> <a href=""> TRANG CHỦ </a>
+                <ul class="home">
+                    <li> <a href=""> Our Story </a> </li>
+                    <li> <a href=""> Giới thiệu về chúng tôi </a> </li>
+                    <li> <a href=""> Các giá trị mang lại </a> </li>
+                    <li> <a href=""> Tầm nhìn tương lai </a> </li>
+                </ul>
+            </li>
+            <li> <a href=""> SẢN PHẨM </a>
+                <ul class="sub-menu">
+                    <li> <a href=""> Nike </a> </li>
+                    <li> <a href=""> Adidas </a> </li>
+                    <li> <a href=""> Vans </a> </li>
+                    <li> <a href=""> Converse </a> </li>
+                    <li> <a href=""> Puma </a> </li>
+                    <li> <a href=""> Biti's </a> </li>
+                </ul>
+            </li>
+            <li> <a href=""> BỘ SƯU TẬP </a> </li>
+            <li> <a href=""> THÔNG TIN </a> </li>
+        </div>
+        <div class="others">
+            <li> <input placeholder="Tìm kiếm" type="text"> <i class="fa fa-search"> </i> </li>
+            <li> <a class="fa fa-paw" href="cai dăt.jfif"></a> </li>
+            <li> <a class="fa fa-user" href="đăng nhập.png"></a> </li>
+            <li> <a class="fa fa-lock" href="ổ khoá.png"></a> </li>
+        </div>
+    </header>
+    <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="logo4.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="logo3.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="logo2.png" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div> -->
+    <!-- <section id="slider">
+        <div class="aspect-ratio-169">
+            <img src="logo4.jpg">
+            <img src="logo2.png">
+            <img src="logo3.png">
+        </div>
+        <div class="dot-container">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </section> -->
+    <!-- <section class="app-container">
+        <p> Join Our Mailing List </p>
+        <input type="text" placeholder="Nhập email của bạn">
+    </section> -->
+
+    <main class='container'>
+        âhihaia
+    </main>
+</body>
+<script>
+    const imgPosition = document.querySelectorAll(".aspect-ratio-169 img")
+    const imgContainer = document.querySelector(".aspect-ratio-169 ")
+    const dotItem = document.querySelectorAll(".dot")
+    let imgNumber = imgPosition.length
+    let index = 0
+    // console.log(imgPosition)
+    imgPosition.forEach(function (image, index) {
+        image.style.left = index * 100 + "%"
+        dotItem[index].addEventListener("click", function () {
+            slider(index)
+        })
+    })
+
+    function imgSlide() {
+        index++;
+        console.log(index);
+        if (index >= imgNumber) {
+            index = 0
+        }; {
+            imgContainer.style.left = "-" + index * 100 + "%"
+        }
+    }
+
+    function slider(index) {
+        imgContainer.style.left = "-" + index * 100 + "%"
+        const dotActive = document.querySelector(".active")
+        dotActive.classList.remove("active")
+        dotItem[index].classList.add("active")
+    }
+    setInterval(imgSlide, 5000)
+</script>
+
+</html>
