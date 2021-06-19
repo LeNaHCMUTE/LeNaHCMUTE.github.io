@@ -124,3 +124,49 @@ body {
     min-height: 310px;
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
 }
+.team-member {
+   text-align: center;
+}
+.about-item .about-heading {
+    text-align: center;
+    padding-top: 24px;
+    margin-bottom: 24px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.team-member .member-name, .operation .operation-type {
+    margin-top: 10px;
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+    font-family: "open Sans ", sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.our-value  {
+    text-align: center;
+    padding: 10px;
+}
+.our-vision {
+    text-align: center;
+    padding: 10px;
+}
+.maps {
+    text-align: center;
+    padding: 10px;
+}
+.product-des {
+    width: 50%;
+    padding-right: 32px;
+}
+.product-des .short-des {
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.product-des form select, .product-des form input {
+    height: 28px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 40%;
+}

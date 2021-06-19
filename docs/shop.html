@@ -24,8 +24,6 @@
 
         /* GLOBAL STYLES
 -------------------------------------------------- */
-        /* Padding below the footer and lighter body text */
-
         body {
             padding-bottom: 3rem;
             color: #5a5a5a;
@@ -173,58 +171,13 @@
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                     <li class="breadcrumb-item"><a href="shop.html">Shop</a></li>
                     <li class="breadcrumb-item active" aria-current="page">
-                        NikeZoom Pegasus 37
                     </li>
                 </ol>
             </nav>
         </div>
         <hr class="">
 
-        <!-- detail product -->
 
-        <div class="container">
-            <div class="row">
-                <div class="col-5">
-                    <img width="100%" src="image/NikeZoom Pegasus 37.webp" class="img-thumbnail"
-                        alt="NikeZoom Pegasus 37.webp">
-                </div>
-                <div class="col-7">
-                    
-                    <div class="product-des">
-                        <h1 class="product-title">NikeZoom Pegasus 37</h1>
-                        <p class="price">1.110.000 đ</p>
-                        <p class="short-des">Tái tạo bước tiến của bạn với Nike Air Zoom Pegasus 37. Mang lại sự vừa vặn và
-                            cảm giác mà người chạy yêu thích, giày có bộ đệm đệm chân trước hoàn toàn mới và
-                            tạo bọt để đáp ứng tối đa. Kết quả là một huấn luyện viên bền, nhẹ được thiết kế
-                            để chạy hàng ngày.</p>
-                        <form action="./add-item.php">
-                          <div class="choose-size product-property">
-                            <label for="size">Kích thước</label>
-                            <select name="size" id="size">
-                              <option value="35">35</option>
-                              <option value="36">36</option>
-                              <option value="37">37</option>
-                              <option value="38">38</option>
-                              <option value="39">39</option>
-                              <option value="40">40</option>
-                              <option value="41">41</option>
-                            </select>
-                          </div>
-                          <div class="choose-quantity product-property">
-                            <label for="quatity">Số lượng</label>
-                            <input type="number" name="quantity" id="quantity" value="1" min="1">
-                          </div>
-                          <div class="add-product">
-                            <button type="submit" class="add-to-cart">Thêm vào giỏ hàng</button>
-                            <button class="add-later">Để dành mua sau</button>
-                          </div>
-                        </form>
-                </div>
-            </div>
-            
-        </div>
-
-        <!-- end detail product -->
 
         <!-- show product recommendations -->
         <div class="album py-5 bg-light">
@@ -235,11 +188,15 @@
                         <div class="card shadow-sm">
                             <img src='image/NikeZoom Pegasus 37.webp'>
                             <div class="card-body">
-                                <p class="card-text">
-                                    Tái tạo bước tiến của bạn với Nike Air Zoom Pegasus 37. Mang lại sự vừa vặn và cảm
-                                    giác mà người chạy yêu thích, giày có bộ đệm đệm chân trước hoàn toàn mới và tạo bọt
-                                    để đáp ứng tối đa. Kết quả là một huấn luyện viên bền, nhẹ được thiết kế để chạy
-                                    hàng ngày.
+                                <p class="card-text product-description" data-bs-toggle="tooltip"
+                                    data-bs-placement="top" title="Tái tạo bước tiến của bạn với Nike Air Zoom Pegasus 37. Mang lại sự vừa vặn và
+                                        cảm giác mà người chạy yêu thích, giày có bộ đệm đệm chân trước hoàn toàn mới và
+                                        tạo bọt để đáp ứng tối đa. Kết quả là một huấn luyện viên bền, nhẹ được thiết kế
+                                        để chạy hàng ngày.">
+                                    Tái tạo bước tiến của bạn với Nike Air Zoom Pegasus 37. Mang lại sự vừa vặn và
+                                    cảm giác mà người chạy yêu thích, giày có bộ đệm đệm chân trước hoàn toàn mới và
+                                    tạo bọt để đáp ứng tối đa. Kết quả là một huấn luyện viên bền, nhẹ được thiết kế
+                                    để chạy hàng ngày.
                                 </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
@@ -248,19 +205,19 @@
                                                 Product</button>
                                         </a>
                                     </div>
-                                    <small class="text-muted">100.000 vnđ</small>
+                                    <small class="text-muted">1.110.000 vnđ</small>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src='image/Nike Air Max 270 Women.webp'>
+                            <img src="image/Nike Air Max 270 Women.webp">
                             <div class="card-body">
-                                <p class="card-text">
+                                <p class="card-text product-description">
                                     Với thiết kế lấy cảm hứng từ Air Max 180 và Air Max 93, Nike Air Max 270 Women
                                     được trang bị bộ phận gót Air lớn nhất của Nike cho đến nay. Chúng cũng có cấu
-                                    trúc đan trên, giống như tất, viền không đối xứng, mấu kéo gót và đế ngoài bằng
+                                    trúc đan trên, giống như tất, mấu kéo gót và đế ngoài bằng
                                     cao su. Đi êm chân, nâng đỡ đôi chân của bạn..!
                                 </p>
                                 <div class="d-flex justify-content-between align-items-center">
@@ -270,18 +227,60 @@
                                                 Product</button>
                                         </a>
                                     </div>
-                                    <small class="text-muted">100.000 vnđ</small>
+                                    <small class="text-muted">850.000 vnđ</small>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                    
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src='image/NikeZoom Pegasus 37.webp'>
+                            <img src="image/Adidas Alphabounce Pink.webp">
                             <div class="card-body">
-                                <p class="card-text">
+                                <p class="card-text product-description">
+                                    Thiết kế tạo sự thoải mái và linh hoạt trên những đoạn đường dài, giúp bạn nhịp
+                                    nhàng trong từng bước chân. Thân giày đươc dệt lưới liền mạch, co giãn cùng lót
+                                    giày ôm sát hỗ trợ và thích nghi mỗi khi bạn sải bước. Đế giữa BOUNCE cung cấp
+                                    sự linh hoạt.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="detail.html">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Detail
+                                                Product</button>
+                                        </a>
+                                    </div>
+                                    <small class="text-muted">690.000 vnđ</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="image/Puma nhu xanh.jfif">
+                            <div class="card-body">
+                                <p class="card-text product-description">
+                                    Puma Nhũ xanh với Đế giày công nghệ đế cao su đúc nguyên khối êm và mềm, form
+                                    giày thon gọn, ôm sát tôn dáng chính là tiêu chí được các bạn trẻ ưa chuộng.
+                                    Không chỉ vậy ở phiên bản này còn thêm khẩ năng lấp lánh Nhũ Xanh ở phần mũi
+                                    giày tạo cảm giác lạ mắt.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="detail.html">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Detail
+                                                Product</button>
+                                        </a>
+                                    </div>
+                                    <small class="text-muted">1.210.000 vnđ</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="image/Nike Pegasus V7.webp ">
+                            <div class="card-body">
+                                <p class="card-text product-description">
                                     Nike Pegasus V7 sở hữu các điểm đặc biệt, như phần trên thoáng khí và midsole
                                     linh hoạt. Những nhược điểm trước đó đã được cải tiến, ví dụ như đế ngoài xuống
                                     cấp nhanh chóng và bọt midsole dễ bị rách. Hệ thống đệm dưới chân của Nike
@@ -290,40 +289,44 @@
                                 </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Detail
-                                            Product</button>
+                                        <a href="detail.html">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Detail
+                                                Product</button>
+                                        </a>
                                     </div>
-                                    <small class="text-muted">100.000 vnđ</small>
+                                    <small class="text-muted">999.000 vnđ</small>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src='image/Adidas ZX2K Boost.jpg'>
+                            <img src="image/Adidas ZX2K Boost.webp">
                             <div class="card-body">
-                                <p class="card-text">
+                                <p class="card-text product-description">
                                     Adidas ZX2K Boost, Dòng ZX đưa một biểu tượng lên một tầm cao mới của thoải mái.
                                     Được cải tiến tạo độ mềm dẻo tối ưu cho đế BOOST bọc nhựa mới, dòng ZX chưa bao
                                     giờ dễ chịu đến thế. Với kẹp gót giày bằng TPU bọc bên ngoài, đế giữa Boost đàn
-                                    hồi phủ màu gradient. Diện mạo tân tiến và thiết kế kỹ thuật, đậm chất Boost. Dễ
+                                    hồi phủ màu gradient. Diện mạo tân tiến, đậm chất Boost. Dễ
                                     chịu đến không tưởng.
                                 </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Detail
-                                            Product</button>
+                                        <a href="detail.html">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Detail
+                                                Product</button>
+                                        </a>
                                     </div>
-                                    <small class="text-muted">100.000 vnđ</small>
+                                    <small class="text-muted">750.000 vnđ</small>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src='image/Converse 1979 Peaceminusone.jfif'>
+                            <img src="image/Converse 1979 Peaceminusone.jfif">
                             <div class="card-body">
-                                <p class="card-text">
+                                <p class="card-text product-description">
                                     Converse 1970s với nền Đen cùng branding của Peaceminusone. Trên chiếc giày bên
                                     trái, logo dạng text của Peaceminusone được đặt. Còn ở chiếc bên phải, ở vị trí
                                     cổ giày mặt ngoài là graphic Daisy (hoa cúc) thiếu một cánh trong tông
@@ -332,19 +335,21 @@
                                 </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Detail
-                                            Product</button>
+                                        <a href="detail.html">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Detail
+                                                Product</button>
+                                        </a>
                                     </div>
-                                    <small class="text-muted">100.000 vnđ</small>
+                                    <small class="text-muted">759.000 vnđ</small>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src='image/Converse Chuck 70 CDG Cổ thấp.jfif'>
+                            <img src="image/Converse Chuck 70 CDG Cổ thấp.jfif">
                             <div class="card-body">
-                                <p class="card-text">
+                                <p class="card-text product-description">
                                     Converse Chuck 70 CDG Play Cổ Thấp: Toàn bộ thân giày được làm bằng vật liệu
                                     siêu phản chiếu sợi Micro Fiber. Dưới các góc độ ánh sáng khác nhau, toàn bộ
                                     thân phản ánh sáng khác nhau, và dây buộc hai màu đen và trắng được kèm miễn
@@ -353,20 +358,44 @@
                                 </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Detail
-                                            Product</button>
+                                        <a href="detail.html">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Detail
+                                                Product</button>
+                                        </a>
                                     </div>
-                                    <small class="text-muted">100.000 vnđ</small>
+                                    <small class="text-muted">850.000 vnđ</small>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src='image/Vans Old Skool Skate.jpg'>
+                            <img src="image/Vans Old Skool caro den.jpg">
                             <div class="card-body">
-                                <p class="card-text">
+                                <p class="card-text product-description">
+                                    Vans Old Skool Checkerboard len lỏi khắp các con phố từ bình dân đến hoa lệ, vậy
+                                    làm thế nào mà mẫu giày này lại có thể khiến thế giới điên đảo như vậy? Nhờ vào
+                                    sự kết hợp tinh tế giữa phong cách thiết kế, chất liệu và màu sắc, mẫu giày này
+                                    nhanh chóng trở thành một biểu tượng xu hướng nổi tiếng trong giới sneakers ở cả
+                                    nam lẫn nữ, dù chỉ mang trong mình thiết kế không quá nổi bật, màu mè.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="detail.html">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Detail
+                                                Product</button>
+                                        </a>
+                                    </div>
+                                    <small class="text-muted">900.000 vnđ</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="image/Vans Old Skool Skate.jpg">
+                            <div class="card-body">
+                                <p class="card-text product-description">
                                     Vans Old Skool Skate được thiết kế lại hoàn hảo cho môn trượt ván hiện đại, em
                                     nó cũng được trang bị đầy đủ những gì cần có để có thể đạt được hiệu quả tối đa
                                     khi sử dụng sản phẩm. Lớp lót giày được gia cố theo công nghệ DURACAP mới mẻ,
@@ -375,19 +404,21 @@
                                 </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Detail
-                                            Product</button>
+                                        <a href="detail.html">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Detail
+                                                Product</button>
+                                        </a>
                                     </div>
-                                    <small class="text-muted">100.000 vnđ</small>
+                                    <small class="text-muted">950.000 vnđ</small>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src='image/Vans Old Skool Classic co thap.jfif'>
+                            <img src="image/Vans Old Skool Classic co thap.jfif">
                             <div class="card-body">
-                                <p class="card-text">
+                                <p class="card-text product-description">
                                     Phần thiết kế bề ngang có phần cứng cáp hơn nhiều so với những kiểu dáng giày
                                     cùng phân khúc giá khác. Nó tạo được cảm giác của sự chắc chắn trong từng bước
                                     đi nhưng vẫn không thiếu đi sự uyển chuyển nhẹ nhàng. Tiếp đến điểm nhấn tạo sự
@@ -396,35 +427,40 @@
                                 </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Detail
-                                            Product</button>
+                                        <a href="detail.html">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Detail
+                                                Product</button>
+                                        </a>
                                     </div>
-                                    <small class="text-muted">100.000 vnđ</small>
+                                    <small class="text-muted">839.000 vnđ</small>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src='image/Puma All White KL.jfif'>
+                            <img src="image/Puma All White KL.jfif">
                             <div class="card-body">
-                                <p class="card-text">
+                                <p class="card-text product-description">
                                     Puma All White: Đế giày truyền thống với công nghệ cao su đúc mềm, êm, form giày
                                     thon gọn, ôm sát tôn dáng chính là tiêu chí số một suede được mọi người ưa
                                     chuộng. Không chỉ vậy, đôi này Puma không khiến người ta ngạc nhiên với mẫu kim
-                                    loại ánh vàng, bạc, hay hồng ở phần mũi giày lạ mắt. Và điều đặc biệt giúp giải
-                                    quyết nỗi lo về chiều cao của các bạn nữ khi dòng đế của suede được nâng cấp
+                                    loại ánh vàng, bạc, phần mũi giày lạ mắt. Và điều đặc biệt giúp giải
+                                    quyết nỗi lo về chiều cao khi dòng đế của suede được nâng cấp
                                     thành đế dòng creep hiện đại.
                                 </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Detail
-                                            Product</button>
+                                        <a href="detail.html">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Detail
+                                                Product</button>
+                                        </a>
                                     </div>
-                                    <small class="text-muted">100.000 vnđ</small>
+                                    <small class="text-muted">990.000 vnđ</small>
                                 </div>
                             </div>
                         </div>
+                    </div>
                     </div>
                 </div>
 
@@ -433,7 +469,7 @@
         </div>
         <!-- end show product -->
 
-       
+
         </div><!-- /.container -->
 
 

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - NVM Sneakers</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Menu bar header -->
+    <header>
+        <nav class="navbar shadow-sm navbar-expand-md navbar-light fixed-top bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="image/logo1.png" height='64px' />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="card.html">About</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                    </form>
+                    <div class="text-end">
+                        <a href="login.html">
+                            <button type="button" class="btn btn-outline-info me-2">Login</button>
+                        </a>
+                        <a href="signup.html">
+                            <button type="button" class="btn btn-success">Sign-up</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Nội dung chính -->
+  <div class="main">
+    <div class="main-content">
+      <!-- Ảnh và mô tả sản phẩm -->
+      <div class="main-product">
+        <div class="single-product-img">
+          <div class="img-container">
+            <img src="./img/aothun/white-tshirt.jpg">
+          </div>
+        </div>
+        <div class="product-des">
+          <h1 class="product-title">Áo thun trơn ngắn tay 100% cotton thoáng mát</h1>
+          <p class="price">179.000 đ</p>
+          <p class="short-des">Áo thun tay ngắn được làm từ chất liệu 100% cotton thoáng mát. Với kiểu dáng basic, có thể phối nhiều kiểu đồ khác nhau.</p>
+          <form action="./add-item.php">
+            <div class="choose-color product-property">
+              <label for="color">Màu sắc</label>
+              <select name="color" id="color">
+                <option value="Đen">Đen</option>
+                <option value="Trắng">Trắng</option>
+                <option value="Vàng">Vàng</option>
+              </select>
+            </div>
+            <div class="choose-size product-property">
+              <label for="size">Kích thước</label>
+              <select name="size" id="size">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+            </div>
+            <div class="choose-quantity product-property">
+              <label for="quatity">Số lượng</label>
+              <input type="number" name="quantity" id="quantity" value="1" min="1">
+            </div>
+            <div class="add-product">
+              <button type="submit" class="add-to-cart">Thêm vào giỏ hàng</button>
+              <button class="add-later">Để dành mua sau</button>
+            </div>
+          </form>
+
+          <div class="product-category">
+              <span class="category-title">Danh mục: </span>
+              <span class="category-name"><a href="./product.html">Thời trang</a></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Thông tin chi tiết sản phẩm -->
+      <div class="product-info">
+        <div class="detail-des">
+          <h2>Mô tả chi tiết</h2>
+          <p class="detail-content">Áo thun trơn dường như là một món đồ không thể thiếu trong tủ đồ nam.</p>
+          <ul>
+            <li>Áo thun trơn màu (trắng/đen) là mẫu áo vừa đơn giản, vừa phù hợp với mọi vóc dáng trong xã hội hiện đại ngày nay.</li>
+            <li>Là mẫu áo không họa tiết cầu kỳ, không kiểu cách nhưng vẫn luôn là mẫu áo của mọi chàng trai ưa chuộng nhất. Dù là bạn đi học, đi làm hay đi chơi đều có thể diện chiếc áo này mà chẳng cần suy nghĩ. Vì mỗi khi diện nó, bạn luôn lịch sự và nam tính hơn bao giờ hết.</li>
+            <li>Chất liệu: thun thể thao cao cấp trẻ trung, phù hợp cho thể thao Gym hoặc thời tiết nóng nực. Vải mềm mịn, mặc thoáng mát, thắm hút tốt</li>
+          </ul>
+          <div class="img-des">
+            <img src="./img/aothun/t-shirt-banner-1.jpg">
+          </div>
+          <p class="detail-content">Chất liệu vải 100% cotton thoáng mát. Chất vải thấm hút mồ hôi tốt, khả năng chống mối mọt và côn trùng tương đối cao.</p>
+          <p class="detail-content">Do tính thấm hút cực kỳ tốt của sợi Bông, nên nền vải Cotton cũng được kế thừa tính năng siêu việt ấy. Ngoài ra, đây chính là loại vải sợi được sử dụng phổ biến nhất trong may mặc.</p>
+          <p class="detail-content"><strong>Đặc điểm của chất liệu từ Cotton 100% này</strong></p>
+          <ul>
+            <li>Thân thiện với môi trường </li>
+            <li>Mềm mại và không gây kích ứng da ngay cả với người nhạy cảm nhất </li>
+            <li>Thấm hút mồ hôi tốt</li>
+            <li>Độ bền cao và dễ dàng giặt ủi </li>
+            <li>Nhẹ và mang đến cảm giác mát mẻ cho người mặc </li>
+          </ul>
+          <div class="img-des">
+            <img src="./img/aothun/black-tshirt.jpg" width="380px">
+            <img src="./img/aothun/yellow-tshirt.jpg" width="380px">
+            <img src="./img/aothun/white-tshirt.jpg" width="380px">
+          </div>
+        </div>
+      </div>
+
+      <!-- Nhận xét của khách hàng -->
+      <div class="customer-review">
+        <h2>Đánh giá của khách hàng</h2>
+        <div class="review-container">
+          <div class="review">
+            <div class="review-info">
+              <img src="./img/chris.jpg" class="rv-avatar">
+              <p class="rv-name">Chris Hemsworth</p>
+            </div>
+            <div class="review-content">
+                <p>Được bạn giới thiệu, tôi đã thử mua về mặc và đúng rất tuyệt vời. Sản phẩm rất chất lượng, phù hợp với giá tiền. Vải thoáng mát, mặc rất thoải mái. Tôi nhất định sẽ mua thêm nhiều sản phẩm của shop.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-container">
+          <div class="review">
+            <div class="review-info">
+              <img src="./img/nat.jpg" class="rv-avatar">
+              <p class="rv-name">Scarlett Johansson</p>
+            </div>
+            <div class="review-content">
+                <p>Chủ shop tư       <!-- Nhận xét của khách hàng -->
+      <div class="customer-review">
+        <h2>Đánh giá của khách hàng</h2>
+        <div class="review-container">
+          <div class="review">
+            <div class="review-info">
+              <img src="./img/chris.jpg" class="rv-avatar">
+              <p class="rv-name">Chris Hemsworth</p>
+            </div>
+            <div class="review-content">
+                <p>Được bạn giới thiệu, tôi đã thử mua về mặc và đúng rất tuyệt vời. Sản phẩm rất chất lượng, phù hợp với giá tiền. Vải thoáng mát, mặc rất thoải mái. Tôi nhất định sẽ mua thêm nhiều sản phẩm của shop.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-container">
+          <div class="review">
+            <div class="review-info">
+              <img src="./img/nat.jpg" class="rv-avatar">
+              <p class="rv-name">Scarlett Johansson</p>
+            </div>
+            <div class="review-content">
+                <p>Chủ shop tư vấn nhiệt tình, sản phẩm thì chất lượng tuyệt vời. 5 SAO không nói nhiều!! Mình nhất định sẽ mua thêm để mặc.</p>
+            </div>
+          </div>
+        </div>
+      </div>vấn nhiệt tình, sản phẩm thì chất lượng tuyệt vời. 5 SAO không nói nhiều!! Mình nhất định sẽ mua thêm để mặc.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Danh sách sản phẩm tương tự -->
+      <div class="my-product">
+        <h2>Sản phẩm tương tự</h2>
+        <div class="product-list">
+          <a href="./polo.html">
+            <div class="product-item">
+              <div class="product-img">
+                <img src="./img/aothun/black-polo.jpg">
+              </div>
+              <h2>Áo thun nam Polo ngắn tay trẻ trung, năng động</h2>
+              <h3>219.000 đ</h3>
+            </div>
+          </a>
+          <a href="./shirt.html">
+            <div class="product-item">
+              <div class="product-img">
+                <img src="./img/somi/white-shirt.jpg">
+              </div>
+              <h2>Áo sơ mi nam tay dài công sở vải nano cao cấp</h2>
+              <h3>349.000 đ</h3>
+            </div>
+          </a>
+          <a href="./short-shirt.html">
+            <div class="product-item">
+              <div class="product-img">
+                <img src="./img/somi/short-blue-shirt.jpg">
+              </div>
+              <h2>Áo sơ mi nam tay ngắn vải nano cao cấp</h2>
+              <h3>329.000 đ</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Đăng ký nhận tin qua email -->
+      <div class="new-letter">
+        <h2>Đăng ký nhận khuyến mãi qua email</h2>
+        <p>Nhập email của bạn và ấn Đăng ký để nhận được các thông tin khuyến mãi sớm nhất!</p>
+        <form action="./new-email.php">
+          <input type="email" name="email" id="email" placeholder="Email của bạn">
+          <input type="submit" value="Đăng ký">
+        </form>
+      </div>
+
+
+
+    </main>
+    <!-- FOOTER -->
+    <footer class="text-center text-lg-start bg-success text-white">
+        <!-- Section: Links  -->
+        <section class="Company-name">
+            <div class="container text-center text-md-start  py-2">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-1 col-lg-1 col-xl-7 mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-print"></i> <b> NEVERMIND SNEAKERS </b> 
+                        </h6>
+                        <p><i class="fas fa-print"></i> Liên hệ: 0919005047 </p>
+                        <p>
+                            <i class="fas fa-print"></i> Email: Nevermindsneakers@gmail.com </p>
+                        <p><i class="fas fa-print"></i> Đ/c: Số 1 Võ Văn Ngân, P Linh Chiểu, TP Thủ Đức,
+                            Thành phồ Hồ Chí Minh. </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 ms-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <b> LIÊN KẾT NHANH </b>
+                        </h6>
+                        <p><i class="fas fa-home"></i> Trang chủ </p>
+                        <p>
+                            <i class="fas fa-envelope"></i> Liên hệ </p>
+                        <p><i class="fas fa-phone"></i> Chính sách giao hàng </p>
+                        <p><i class="fas fa-print"></i> Phương thức thanh toán</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+    </footer>
+    <!-- Footer -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
